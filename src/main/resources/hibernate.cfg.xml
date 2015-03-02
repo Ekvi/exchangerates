@@ -7,11 +7,8 @@
 
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <!--<property name="hibernate.connection.password"></property>
-        <property name="hibernate.connection.username"></property>-->
-        <property name="hibernate.connection.username">adminjnUEraQ</property>
-        <property name="hibernate.connection.password">JnHI5_vIlPLL</property>
-        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306</property>-->
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.connection.username"></property>
         <property name="hibernate.connection.url">jdbc:mysql://127.11.122.2:3306</property>
         <property name="hibernate.connection.pool_size">1</property>
         <property name="hibernate.current_session_context_class">jta</property>

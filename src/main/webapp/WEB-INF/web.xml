@@ -17,30 +17,4 @@
         <welcome-file>ExchangeRates.html</welcome-file>
     </welcome-file-list>
 
-    <!--<listener>
-        <listener-class>
-            org.springframework.web.context.ContextLoaderListener
-        </listener-class>
-    </listener>
-
-    &lt;!&ndash; Servlets &ndash;&gt;
-
-    <servlet>
-        <servlet-name>springGwtRemoteServiceServlet</servlet-name>
-        <servlet-class>org.spring4gwt.server.SpringGwtRemoteServiceServlet
-        </servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>springGwtRemoteServiceServlet</servlet-name>
-        &lt;!&ndash;<url-pattern>/gwtspring/springGwtServices/*</url-pattern>&ndash;&gt;
-        <url-pattern>/com.exchangerates.ExchangeRates/ratesService</url-pattern>
-    </servlet-mapping>
-    -->
-
-    <!--<welcome-file-list>
-        <welcome-file>ExchangeRates.html</welcome-file>
-    </welcome-file-list>-->
-
-
 </web-app>

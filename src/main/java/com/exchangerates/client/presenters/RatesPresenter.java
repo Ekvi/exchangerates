@@ -14,7 +14,6 @@ import com.google.gwt.user.client.ui.RootLayoutPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 
-
 public class RatesPresenter implements Presenter {
     private Display view;
     private RatesServiceAsync service = GWT.create(RatesService.class);

@@ -43,7 +43,6 @@ public class Crawler implements Job {
                 .newTrigger()
                 .withIdentity("schedule", "group1")
                 .withSchedule(CronScheduleBuilder.cronSchedule("0 5 2,5,8,11,17,23 * * ?"))    //corresponds 9,12,15,18 hours in Kiev
-                //.withSchedule(CronScheduleBuilder.cronSchedule("0 */3 * * * ?"))
                 .build();
 
         Scheduler scheduler = new StdSchedulerFactory().getScheduler();
