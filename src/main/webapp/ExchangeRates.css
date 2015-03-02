@@ -1,0 +1,336 @@
+body {
+    background: url("images/dollar2.jpg")repeat-x 0px -27px;
+    color: black;
+    font-family: "Times New Roman", sans-serif;
+    font-size: small;
+    margin: 8px;
+}
+
+.north{
+    background-color: darkslategray;
+    border: 2px solid black;
+}
+
+.south {
+    background-color: darkslategray;
+    color: white;
+    border: 2px solid black;
+}
+
+.west {
+    border: 2px solid black;
+}
+
+.east {
+    border: 2px solid black;
+}
+
+.east2 {
+    background-color: gainsboro;
+    padding-left: 20px;
+}
+
+.centerPanel {
+    background-color: gainsboro;
+    width: 100%;
+    height: 100%;
+}
+
+.contentPanel {
+    width: 100%;
+    margin-top: 20px ;
+}
+
+.mainRates {
+    width: 100%;
+}
+
+.todayTitlePanel {
+    background-color: burlywood;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.todayDateButton {
+    margin-top: 6px;
+    font-size: 0.8em;
+}
+
+.banksRates {
+    width: 100%;
+    height: 100%;
+}
+
+.banksTitlePanel {
+    background-color: burlywood;
+    font-size: 1.4em;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.currencyList {
+    margin-top: 3px;
+    font-size: 0.75em;
+}
+
+.titlePanel {
+    background-color: bisque;
+    border: 2px solid burlywood;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.titleBankName {
+    margin-top: 5px;
+    width: 200px;
+    padding-left: 10%;
+}
+
+.titleUpdateTime {
+    margin-top: 5px;
+    padding-left: 20%;
+}
+
+.titleCelling {
+    margin-top: 5px;
+}
+
+.titleBuying {
+    margin-top: 5px;
+    text-align: center;
+    margin-left: -10%;
+}
+
+.stackPanel {
+    border-right: 2px solid burlywood;
+    border-bottom: 2px solid burlywood;
+}
+
+.banksPanel {
+    background-color: bisque;
+    border-top: 2px solid burlywood;
+    border-left: 2px solid burlywood;
+    border-bottom: 2px solid burlywood;
+    height: 40px;
+    width: 100%;
+}
+
+.banksPanel:hover {
+    background-color: burlywood;
+    border: 2px solid goldenrod;
+    height: 40px;
+    width: 100%;
+}
+
+.label {
+    margin-top: 2px;
+}
+
+.gwt-DatePicker {
+    border: 1px solid #ccc;
+    border-top: 1px solid #999;
+    cursor: default;
+}
+
+.mainCurrencyTable {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.watchListHeader {
+    background-color: darkslategray;
+    color: white;
+    font-style: italic;
+}
+
+.watchList {
+    border: 1px solid silver;
+    padding: 2px;
+    margin-bottom: 6px;
+    font-size: 1.25em;
+}
+
+.watchListNumericColumn {
+    text-align: right;
+    width: 8em;
+}
+
+.footerLabel {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.headerLabel {
+    text-align: center;
+    color: white;
+    font-size: 1.6em;
+    margin-top: 0.5%;
+}
+
+.panelInsideTable {
+    font-size: 20px;
+}
+
+.differenceUp {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 4px;
+    text-align: right;
+    color: green;
+}
+
+.differenceDown {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 4px;
+    text-align: right;
+    color: red;
+}
+
+.ratesDifferenceIm {
+    margin-top: 7px;
+}
+
+.lineChart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imageSimplePanel {
+    height: 100%;
+}
+
+.nameSimplePanel {
+    height: 100%;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.timeSimplePanel {
+    height: 100%;
+    margin-left: -55%;
+    margin-top: 5px;
+}
+
+.buyingSimplePanel {
+    height: 100%;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.cellingSimplePanel {
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+
+.gwt-DatePicker td,
+.datePickerMonthSelector td:focus {
+    outline: none;
+}
+.datePickerMonthSelector td:focus {
+    outline: none;
+}
+.datePickerDays {
+    width: 100%;
+    background: white;
+}
+.datePickerDay,
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+    font-size: 85%;
+    text-align: center;
+    padding: 4px;
+    outline: none;
+    font-weight:bold;
+    color:#333;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+    background: #fff;
+    padding: 0px 4px 2px;
+    cursor: default;
+    color:#666;
+    font-size:70%;
+    font-weight:normal;
+}
+.datePickerDay {
+    padding: 4px 7px;
+    cursor: hand;
+    cursor: pointer;
+}
+.datePickerDayIsWeekend {
+    background: #f7f7f7;
+}
+.datePickerDayIsFiller {
+    color: #999;
+    font-weight:normal;
+}
+.datePickerDayIsValue {
+    background: #d7dfe8;
+}
+.datePickerDayIsDisabled {
+    color: #AAAAAA;
+    font-style: italic;
+}
+.datePickerDayIsHighlighted {
+    background: #F0E68C;
+}
+.datePickerDayIsValueAndHighlighted {
+    background: #d7dfe8;
+}
+/*.datePickerDayIsToday {
+    padding: 3px;
+    color: #fff;
+    background: url(images/hborder.png) repeat-x 0px -2607px;
+}*/
+.datePickerMonthSelector {
+    width: 100%;
+    padding: 1px 0 5px 0;
+    background: #fff;
+}
+.datePickerPreviousButton,
+.datePickerNextButton,
+.datePickerPreviousYearButton,
+.datePickerNextYearButton {
+    font-size: 120%;
+    line-height: 1em;
+    color: #3a6aad;
+    cursor: hand;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 4px;
+    outline: none;
+}
+td.datePickerMonth,
+td.datePickerYear {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 100%;
+    font-weight: bold;
+    color: #333;
+}
+.gwt-DateBox {
+    padding: 5px 4px;
+    border: 1px solid #ccc;
+    border-top: 1px solid #999;
+    font-size: 100%;
+}
+.gwt-DateBox input {
+    width: 8em;
+}
+.dateBoxFormatError {
+    background: #ffcccc;
+}
+.dateBoxPopup {
+}
+
+
+
+

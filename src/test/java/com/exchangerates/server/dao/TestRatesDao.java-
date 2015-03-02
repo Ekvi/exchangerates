@@ -1,0 +1,39 @@
+package com.exchangerates.server.dao;
+
+
+import com.exchangerates.server.dao.impl.RatesDaoImpl;
+import com.exchangerates.shared.model.DbRates;
+import org.junit.Test;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
+public class TestRatesDao {
+    private RatesDao ratesDao = new RatesDaoImpl(DbRates.class);
+
+    @Test
+    public void testGetListGraphicRates(){
+        Date start = getDate(22, 0, 2015);
+        Date end = getDate(25, 0, 2015);
+
+        List<DbRates> rates = ratesDao.getRates(start, end);
+
+        assertNotNull(rates);
+        assertEquals(4, rates.size());
+    }
+
+    private Date getDate(int day, int month, int year) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.DAY_OF_MONTH, day);
+        calendar.set(Calendar.MONTH, month);
+        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        return calendar.getTime();
+    }
+}
